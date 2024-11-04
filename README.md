@@ -8,7 +8,7 @@
 
 <hr />
 
-> [!WARNING]
+> [!TIP]
 > To compile this, you will need either Pyinstaller or Nuitka. I prefer Nuitka because it doesn't give of antivirus malfunctions. Because of this I will not be giving the command to compile with Pyinstaller. If you still want to you will need to trubleshoot and make a command yourself.
 
 ## Compile command:
