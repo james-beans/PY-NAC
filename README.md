@@ -1,5 +1,10 @@
-# pyimgui-hw
-"Hello, world." in a nested Pygame and Imgui window.
+# py-gui-testing
+testing python with gui libraries.
+
+<hr />
+
+> [!TIP]
+> This uses [DearPyGui](https://github.com/hoffstadt/DearPyGui) for a simple, easy way to make ui that looks decent in [Python](https://python.org).
 
 <hr />
 
