@@ -2,3 +2,7 @@
 *.md linguist-detectable
 # allows Python files (*.py files) to show in the repo capsule
 *.py linguist-detectable
+# allows ICO icon files (*.ico files) to show in the repo capsule
+*.ico linguist-detectable
+# allows TTF font files (*.ttf files) to show in the repo capsule
+*.ttf linguist-detectable
