@@ -13,7 +13,7 @@ Noughts-And-Crosses/Tic-Tac-Toe in **[Python](https://python.org)**.
 > **[Python](https://python.org)** is needed for even just running the pre-compiled executable from the releases.
 
 ### Python import dependencies:
-- **[Tkinter](https://docs.python.org/3/library/tkinter.html)** (built in with **[Python](https://python.org)**)
+- **[Tkinter](https://docs.python.org/3/library/tkinter.html)** (built in with **[Python](https://python.org)** but might need an install using `sudo apt-get install python3-tk` for Linux)
 - **[Turtle](https://docs.python.org/3/library/turtle.html)** (built in with **[Python](https://python.org)**)
 - **[Numpy](https://numpy.org/)** (external; download with pip: `pip install numpy`)
 
