@@ -47,7 +47,10 @@ Noughts-And-Crosses/Tic-Tac-Toe in **[Python](https://python.org)**.
 > [!WARNING]
 > I will **not** be providing commands for other python compilers apart from **[Nuitka](https://nuitka.net/)**.
 
+> [!WARNING]
+> The Linux command will ***not*** be ***tested*** as I don't have enough time.
+
 ## Compile commands:
-### Linux (not tested): `nuitka --standalone --onefile --enable-plugin=tk-inter --enable-plugin=numpy --include-data-files="fonts/ProductSans-Regular.ttf=fonts/ProductSans-Regular.ttf" --windows-icon-from-ico=favicon.ico main.py`
+### Linux (not tested): `nuitka --standalone --onefile --enable-plugin=tk-inter --enable-plugin=numpy --include-data-files="fonts/ProductSans-Regular.ttf=fonts/ProductSans-Regular.ttf" main.py`
 
 ### Windows (tested): `nuitka --standalone --onefile --enable-plugin=tk-inter --enable-plugin=numpy --include-data-files="fonts/ProductSans-Regular.ttf=fonts/ProductSans-Regular.ttf" main.py`
