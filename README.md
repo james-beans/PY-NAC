@@ -3,6 +3,20 @@ Noughts-And-Crosses/Tic-Tac-Toe in **[Python](https://python.org)**.
 
 <hr />
 
+> [!CAUTION]
+> The compiled versions of this all have false-flagged on at least 1 antivirus. This was checked through [virustotal](https://virustotal.com).
+
+> [!CAUTION]
+> Because of these false flags the compiled executables will not be given out on their own. You will ***have to*** compile them yourself or use the [python file](/main.py) on it's own if you want to use this.
+
+> [!CAUTION]
+> The link to the virustotal checks are [here for windows](https://www.virustotal.com/gui/file/704dfa491d7321ffa73d7fc81103d08f8f494f71110d4f28a5d77871429f74da) and non-existant for Linux.
+
+<hr />
+
+> [!TIP]
+> You will need the [fonts folder](/fonts) for the fonts used in the project. These fonts are not made by me they are made by Google (the company) for their logos but I decided to use it still. The font used is called `Product Sans`.
+
 ## Dependencies:
 - **[Python](https://python.org)** (You probably already have this installed already.)
   -  If you're not sure you have Python installed check your system packages for Linux and Mac and run the command `Python3`.
@@ -34,5 +48,6 @@ Noughts-And-Crosses/Tic-Tac-Toe in **[Python](https://python.org)**.
 > I will **not** be providing commands for other python compilers apart from **[Nuitka](https://nuitka.net/)**.
 
 ## Compile commands:
-### Linux: ``
-### Windows: ``
+### Linux (not tested): `nuitka --standalone --onefile --enable-plugin=tk-inter --enable-plugin=numpy --include-data-files="fonts/ProductSans-Regular.ttf=fonts/ProductSans-Regular.ttf" --windows-icon-from-ico=favicon.ico main.py`
+
+### Windows (tested): `nuitka --standalone --onefile --enable-plugin=tk-inter --enable-plugin=numpy --include-data-files="fonts/ProductSans-Regular.ttf=fonts/ProductSans-Regular.ttf" main.py`
