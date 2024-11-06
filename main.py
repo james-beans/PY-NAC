@@ -1,3 +1,23 @@
+# READ THE README.md FILE BEFORE USING THIS. THE CAUTIONS AT THE TOP ARE IMPORTANT FOR COMPILING.
+#
+#               [
+# General info -| BE CAREFUL IF YOU DECIDE TO MAKE EXCLUSIONS FOR A CUSTOM-COMPILED PROGRAM (like this)
+#               | - WITHOUT SEEING THE SOURCE CODE.
+#               [ IT COULD BE A VIRUS.
+#
+# The information that you read before this doesn't just apply to this it applies to all programs. Check the source code
+# - before compilation and antivirus-exclusions.
+#
+# If someone compiles this and gives this to you and you see this by looking through binary or extremely hard machine
+# - code, be warned that it **MIGHT** have a **VIRUS ADDED INTO IT**. 
+# - DO NOT RUN THIS IF SOMEONE GIVES IT TO YOU COMPILED.
+#
+# These are just safety precautions. You should do this to every software you encounter.
+# 
+# Sincerly,
+# - james-beans
+
+
 # PY-NAC | Noughts And Crosses (Tic-Tac-Toe)
 # By: james-beans
 
